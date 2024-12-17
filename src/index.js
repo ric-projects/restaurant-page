@@ -1,6 +1,8 @@
 import "./styles.css";
 import { homepage } from "./homepage.js";
 import { clearcontent } from "./clearDiv.js";
+import { aboutPage } from "./about.js";
+import { menuPage } from "./menu.js";
 
 // console.log('testing webpack connection ');
 
@@ -17,14 +19,14 @@ homeBtn.addEventListener("click", () => {
 
 menuBtn.addEventListener("click", () => {
     clearcontent();
+    menuPage();
 
 });
 
 aboutBtn.addEventListener("click", () => {
     clearcontent();
+    aboutPage();
 
 });
 
 homepage();
-// console.log(homepage);
-// console.log(homepage());

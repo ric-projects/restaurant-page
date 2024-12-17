@@ -1,0 +1,41 @@
+body{
+    background-color: #cbd5e1;
+    margin: 0px;
+}
+
+.headlineWrapper{
+    background-color: #94a3b8;
+    height: 35vh;
+    width: 60vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position:relative;
+    top: 20vh;
+    box-shadow: 5px 2px 8px 0px grey;
+    border-radius: 8px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.heroImg{
+    width: 40vw;
+    grid-area: 1 / 1 / -1 / 1;
+    max-height: 100vh;
+}
+
+.headline{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: gabriola;
+    word-spacing: 4px;
+    margin-left: 10px;
+}
+
+.description{
+    margin-left: 10px;
+}
